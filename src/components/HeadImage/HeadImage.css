@@ -1,0 +1,77 @@
+.HeadImage{
+margin-bottom: 80px;
+}
+.HeadImageBackground{
+    width: 100%;
+    position: relative;
+}
+.HeadImageH1{
+    position: absolute;
+    width: 24.7%;
+    height: 22.7%;
+    left: 10%;
+    top: 0%;
+    margin: 0;
+    margin-top: 18.3%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 68px;
+    letter-spacing: 2px;
+    color: #3C4043;
+}
+.HeadImageText{
+    position: absolute;
+    width: 27.8%;
+    height: 8%;
+    left: 10%;
+    top: 0%;
+    margin: 0;
+    margin-top: 27%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4043;
+}
+.HeadImageButtonText{
+    position: absolute;
+    height: 40px;
+    width: 26%;
+    left: 10%;
+    top: 0%;
+    margin: 0;
+    margin-top: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.HIButton{
+    box-sizing: border-box;
+    width: 42%;
+    height: 40px;
+    border: 2px solid #3C4043;
+    border-radius: 4px;
+}
+.HIBText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    text-align: center;
+    color: #3C4043;
+}
+@media (max-width: 1024px) {
+    .HeadImageH1{
+        font-size: 38px;
+        line-height: 56px;
+    }
+    .HeadImageText{
+        margin-top: 30%;
+    }
+    .HeadImageButtonText{
+        margin-top: 40%;
+    }
+}
