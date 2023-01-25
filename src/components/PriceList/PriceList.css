@@ -1,0 +1,18 @@
+.PriceList{
+    padding-bottom: 160px;
+}
+.PriceListText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C4043;
+    margin-bottom: 90px;
+}
+.PriceListList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
