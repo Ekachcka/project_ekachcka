@@ -6,7 +6,7 @@ import Twitter from '../../icons/Twitter.svg';
 import Inst from '../../icons/Inst.svg';
 import Facebook from '../../icons/Facebook.svg';
 import YouTube from '../../icons/YouTube.svg';
-import TikTok from '../../icons/Twitter.svg';
+import TikTok from '../../icons/TikTok.svg';
 function Foot() {
   return (
     <div className="Foot">
