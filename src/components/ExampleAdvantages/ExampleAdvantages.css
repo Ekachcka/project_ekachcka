@@ -1,0 +1,54 @@
+.ExampleAdvantages{    
+    background: #E9E3DB;
+    border-radius: 28px;
+    width: 25%;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.EAText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #3C4043;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+.EAH2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+    margin: 0;
+}
+.EAH3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #3C4043;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.EAImg{
+    width: 100%;
+}
+@media (max-width: 1024px) {
+    .EAH2{
+        font-size: 30px;
+    }
+    .EAH3{
+        font-size: 30px;
+    }
+}

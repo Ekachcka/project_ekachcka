@@ -1,4 +1,5 @@
 import './App.css';
+import Advantages from './components/Advantages';
 import Head from './components/Head';
 import HeadImage from './components/HeadImage';
 import Media from './components/Media';
@@ -11,6 +12,7 @@ function App() {
         <HeadImage/>
         <PriceList/>
         <Media/>
+        <Advantages/>
     </div>
   );
 }
