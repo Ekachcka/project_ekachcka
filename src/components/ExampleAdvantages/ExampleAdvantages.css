@@ -1,7 +1,6 @@
-.ExampleAdvantages{    
-    background: #E9E3DB;
+.ExampleAdvantages{
     border-radius: 28px;
-    width: 25%;
+    max-width: 48%;
     margin: 24px;
     display: flex;
     flex-direction: column;
