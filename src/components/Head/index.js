@@ -1,5 +1,5 @@
-import ButtonHead from '../ButtonHead';
-import IconsHead from '../IconsHead';
+import ButtonHead from '../ButtonF';
+import IconsHead from '../IconsF';
 import './Head.css';
 import Search from '../../icons/Search.svg';
 import Question from '../../icons/Question.svg';

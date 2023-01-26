@@ -3,6 +3,7 @@ import Advantages from "./components/Advantages";
 import BigAdvantages1 from "./components/BigAdvantages1";
 import BigAdvantages2 from "./components/BigAdvantages2";
 import Category from "./components/Category";
+import Foot from "./components/Foot";
 import Head from "./components/Head";
 import HeadImage from "./components/HeadImage";
 import Media from "./components/Media";
@@ -35,6 +36,7 @@ function App() {
         }
         Background={"#FFFFFF"}
       />
+      <div className="Line"/>
       <Foot/>
     </div>
   );
