@@ -1,6 +1,7 @@
 import './App.css';
 import Advantages from './components/Advantages';
-import BigAdvantages from './components/BigAdvantages';
+import BigAdvantages1 from './components/BigAdvantages1';
+import BigAdvantages2 from './components/BigAdvantages2';
 import Category from './components/Category';
 import Head from './components/Head';
 import HeadImage from './components/HeadImage';
@@ -15,8 +16,9 @@ function App() {
         <PriceList/>
         <Media/>
         <Advantages/>
-        <BigAdvantages/>
+        <BigAdvantages1/>
         <Category/>
+        <BigAdvantages2/>
     </div>
   );
 }
