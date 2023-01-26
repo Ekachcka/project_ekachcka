@@ -1,15 +1,17 @@
 import './Media.css';
-import MediaImg from '../../Image/MediaImg.png';
-function Media() {
+
+function Media(props) {
   return (
-    <div className="Media">
-            <img src={MediaImg} className='MediaImg'/>
+    <div className="Media" style={{ background: props.Background }}>
+            <img src={props.Img} className='MediaImg'/>
         <div className='MediaText'>
             <h2 className='MTH2'>
-                This holiday season, Google Pixel is giving back.
+                {props.Title}
+                
             </h2>
             <p className='MTText'>
-                We're contributing $1 million to the NBA Foundation to help advance HBCU students in their careers across STEM, sports, and media industries.
+              {props.Text}
+             
             </p>
         </div>
     </div>
